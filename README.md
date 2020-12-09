@@ -8,11 +8,12 @@ Here are some very useful AddOns and in future code snippets related to the Wint
 [EN]
 Just copy it in your WRS-Modding Unity project (I recommend the path Assets/Plugins).
 There should be a "Season 2" Menu-Item where you can choose "Build"
+You stil need the Season1 SDK for Splines etc.
 
 [DE]
 Einfach herunterladen und die Season2Builder.cs in deinem Unity Modding-Projekt einfügen.
 Dann sollte in der Menüleiste das "Season 2" Item erscheinen.
-
+Man benötigt immer noch das Season1 SDK für Splines usw.
 ## Author
 
 * **Paul Masan aka. Paulchen/Raining-Cloud**  [Raining-Cloud](https://github.com/Raining-Cloud)
