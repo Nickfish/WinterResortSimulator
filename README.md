@@ -3,7 +3,7 @@
 Here are some very useful AddOns and in future code snippets related to the WinterResortSimulator Modding
 ## Docs
 ### Season 2 Mod-Builder
-[Get it HERE](../main/Unity/WinterResortSimulator_ModdingSDk_Season2.dll)
+[Get it HERE](../main/Unity/WinterResortSimulator_ModdingSDK_Season2.dll)
 
 [EN]
 Just copy it in your WRS-Modding Unity project (I recommend the path Assets/Plugins).
