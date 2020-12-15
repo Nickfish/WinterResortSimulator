@@ -1,4 +1,4 @@
-﻿//Made by Paul Masan (Paulchen/Raining-Cloud)
+//Made by Paul Masan (Paulchen/Raining-Cloud)
 //Date: 9.12.2020
 //GitHub: https://github.com/Raining-Cloud
 
@@ -12,14 +12,23 @@ namespace WinterResortSimulator_ModdingSDk_Season2.EditorAddOn
 {
     public class Season2Builder
     {
-        [MenuItem("Season 2/Build")]
-        private static void BuildAllAssetBundles()
+        [MenuItem("Season 2/Build Debug")]
+        private static void BuildDebugMode()
+        {
+            BuildAllAssetBundles(BuildAssetBundleOptions.UncompressedAssetBundle);
+        }
+        [MenuItem("Season 2/Build Release")]
+        private static void BuildReleaseMode()
+        {
+            BuildAllAssetBundles(BuildAssetBundleOptions.ChunkBasedCompression);
+        }
+        private static void BuildAllAssetBundles(BuildAssetBundleOptions option)
         {
             string unityMods = Environment.CurrentDirectory + "/Mods/"; //Get the Unity Mod Path
             if (!Directory.Exists(unityMods)) //Check the path
                 Directory.CreateDirectory(unityMods);
             //build all the mods
-            AssetBundleManifest assetBundleManifest = BuildPipeline.BuildAssetBundles(unityMods, (BuildAssetBundleOptions)0, (BuildTarget)5);
+            AssetBundleManifest assetBundleManifest = BuildPipeline.BuildAssetBundles(unityMods, option, (BuildTarget)5);
             UnityEngine.Debug.Log((object)"Building finished!");
             if (!EditorUtility.DisplayDialog("Copy Mods?", "Shall we copy all mods into your mod directory?\n\nAttention! Conflicting names will be overwritten.", "Yes, copy all", "No"))
                 return;
@@ -74,7 +83,7 @@ namespace WinterResortSimulator_ModdingSDk_Season2.EditorAddOn
         [MenuItem("Season 2/Info")]
         private static void ShowInfo()
         {
-            EditorUtility.DisplayDialog("Information", "This script is made by Paul Masan\nNOT by HR Innoways!\nIf you find an Error please contact me!", "Ok");
+            EditorUtility.DisplayDialog("Information", "This script is made by Paul Masan\nNOT by HR Innoways!\nIf you find an Error please contact me!\n\nRELEASE:\nCompresses the Mod-File so its smaller\n\nDEBUG:\nBuilds fast without compression", "Ok");
         }
     }
 }
