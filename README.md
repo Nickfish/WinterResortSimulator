@@ -5,7 +5,7 @@ Here are some very useful AddOns and in future code snippets related to the Wint
 ### PaulchenModdingSDK
 [Get it HERE](../main/Unity/PaulchenModdingSDK.dll)
 
-[EN]
+[EN]  
 Just copy it in your WRS-Modding Unity project (I recommend the path Assets/Plugins).
 There should be a "PaulchenModdingSDK" Menu-Item where you can Build the mod, show the custom window
 or visit my GitHub page :)
@@ -27,7 +27,9 @@ or visit my GitHub page :)
 
 You stil need the Season1 SDK for Splines etc.
 
-[DE]
+---
+
+[DE]  
 Einfach herunterladen und die PaulchenModdingSDK in deinem Unity Modding-Projekt einfügen (Assets/Plugins).
 Dann sollte in der Menüleiste das "PaulchenModdingSDK" Item erscheinen, hier kannst du die Mods
 Builden, das PaulchenModding Fenster öffnen und auf mein GitHub kommen :)
