@@ -5,6 +5,8 @@ Here are some very useful AddOns and in future code snippets related to the Wint
 ### PaulchenModdingSDK
 [Get it HERE](../main/Unity/PaulchenModdingSDK.dll)
 
+<img src="https://github.com/Raining-Cloud/WinterResortSimulator/blob/main/images/PaulchenModdingSDK_preview.png" width="350">
+
 [EN]  
 Just copy it in your WRS-Modding Unity project (I recommend the path Assets/Plugins).
 There should be a "PaulchenModdingSDK" Menu-Item where you can Build the mod, show the custom window
