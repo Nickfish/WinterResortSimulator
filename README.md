@@ -6,7 +6,6 @@ Here are some very useful AddOns and in future code snippets related to the Wint
 [Get it HERE](../main/Unity/PaulchenModdingSDK.dll)
 
 <img src="https://github.com/Raining-Cloud/WinterResortSimulator/blob/main/Unity/PaulchenModdingSDK_preview.png" height="400">
-blob/main/Unity/PaulchenModdingSDK_preview.png
 
 [EN]  
 Just copy it in your WRS-Modding Unity project (I recommend the path Assets/Plugins).
