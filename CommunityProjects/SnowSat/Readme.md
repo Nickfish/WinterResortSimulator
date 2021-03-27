@@ -2,6 +2,8 @@
 
 This is a Mod-File for the WRS-S2 which provides a basic SnowSat-System for Vehicles
 
+<img src="https://github.com/Raining-Cloud/WinterResortSimulator/blob/main/CommunityProjects/SnowSat/snow_sat.png" height="200">
+
 ## Usage
 You need to download the unity package and add it to your assetbundle. Add the `"SnowSat.lua"` in you `mod.lua`file.
 In the datatable of your vehicle you now need to add a few things. First you add `SnowSat,` to the `vehicleScripts`.
