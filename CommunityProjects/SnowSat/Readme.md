@@ -59,6 +59,6 @@ Finally we need the `snowSat` table with all the indexes for a working SnowSat. 
 
 ## Creators
 
-- Paulchen(Pau Masan)
-- Snowman73 ![YouTube](https://www.youtube.com/channel/UCBjP9Jj0tvrrLM_dkWwsUNw)
+- Paulchen(Paul Masan)
+- Snowman73 ![-> On YouTube](https://www.youtube.com/channel/UCBjP9Jj0tvrrLM_dkWwsUNw)
 
