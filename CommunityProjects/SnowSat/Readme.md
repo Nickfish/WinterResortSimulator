@@ -33,7 +33,7 @@ Finally we need the `snowSat` table with all the indexes for a working SnowSat. 
         -- chunks
         chunkX = 3,
         chunkY = 2,
-	renderDistance = 3,
+	renderDistance = 3, --NEW
 
         --custom colors
 
