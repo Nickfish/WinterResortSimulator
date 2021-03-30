@@ -30,11 +30,10 @@ Finally we need the `snowSat` table with all the indexes for a working SnowSat. 
         master = "Snowsat/Display/Master",
         basePixel = "Snowsat/Display/Master/MainPixel",
         pixelSize = 20,
-        -- for debugging visible
-        object3D = "SnowSatVisModel",
         -- chunks
         chunkX = 3,
         chunkY = 2,
+	renderDistance = 3,
 
         --custom colors
 
