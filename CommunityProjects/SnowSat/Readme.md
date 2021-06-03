@@ -1,6 +1,6 @@
 # SnowSat
 
-This is a Mod-File for the WRS-S2 which provides a basic SnowSat-System for Vehicles
+This is a Asset-File for the WRS-S2 which provides a basic SnowSat-System for Vehicles
 
 <img src="https://github.com/Raining-Cloud/WinterResortSimulator/blob/main/CommunityProjects/SnowSat/snow_sat.png" height="200">
 
