@@ -1,4 +1,4 @@
-This is a Asset-File for the WRS-S2 which provides a basic SnowSat-System for Vehicles
+This is a Asset-File for the WRS-S2 which provides a basic low-impact processing for objects.
 
 ## Usage
 Add all the files to your UnityProject. Don't forget adding the lua files to your assetbundle/mod.lua!
