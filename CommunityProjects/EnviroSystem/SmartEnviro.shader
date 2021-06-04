@@ -1,4 +1,7 @@
-﻿
+
+// Author:	Paul Masan (Paulchen)
+// Date:	5/03/2021
+
 Shader "PaulchenShaders/SmartEnviro"
 {
   Properties
