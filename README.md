@@ -15,7 +15,7 @@ or visit my GitHub page :)
 #### New Feautures:
 ##### ModBuilder:
  - Up to 7x faster builds in Debug Builds (For Workshop-Upload use Release, otherwise the file is 7 times larger)
- - Last Build visulized
+ - Last Build visualized
  - Auto-Copy mods in your Mod-Directory
 
 ##### WRS-Launcher
